@@ -1,0 +1,61 @@
+body{
+    width:100vw;
+    height:100vh;
+    
+    display:flex;
+    flex-wrap: nowrap;
+}
+.header-content-left{
+    width:60%;
+    height:100%;
+    
+    background:#fff;
+
+    display:flex;
+    justify-content:flex-end;
+}
+.header-content-left .innerHeaderContent {
+    width: 90%;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.header-content-left #logo img{
+    width: 100%;
+    max-width:500px;
+}
+.header-content-left .innerHeaderContent .slogan {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-content-left .slogan h1{
+    font: 400 4rem 'Maven Pro';
+    line-height: 3.5rem;
+    color: var(--color-slogan);
+}
+
+.header-content-right{
+    width:40%;
+    height:100%;
+    background: var(--color-background);
+
+    display:flex;
+    justify-content:flex-start;
+}
+.header-content-right .innerHeaderContentRight {
+    width: 90%;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.header-content-right .innerHeaderContentRight a img {
+    width: 90px;
+    height: 90px;
+}

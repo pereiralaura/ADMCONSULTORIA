@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*font-family: 'Maven Pro', sans-serif;
+font-family: 'Archivo', sans-serif;*/
+
+
+:root{
+    --color-background:#1730C0;
+    --color-slogan:#04318C;
+    --color-details:#031859;
+    --color-text-large:#031859;
+    --color-title:#385CC6;
+    --color-icon-and-title-navbar:#1730C0;
+    --color-balls:#04318C;
+    --color-courses-cards:#ffffff;
+    --color-leia-mais:#000000;
+    --color-text-contact:#04318C;
+    --color-description:#1B45BE;
+    --color-hover-select: #1730C0;
+    --color-hover-select-navbar: #031859;
+    --color-text-complement: #666666;
+}
+
+.container{
+    width:90vw;
+    max-width:1100px;
+    margin: 0 auto;
+}
+
+
+
+
